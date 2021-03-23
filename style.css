@@ -6,7 +6,7 @@
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 2560px;
 }
 
 a {
@@ -402,6 +402,53 @@ input[type="search"]::-webkit-search-results-decoration {
   width: 350px;
   height: 150px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.exclusive__line-left {
+  position: absolute;
+  left: 120px;
+  width: 75px;
+}
+
+.exclusive__text {
+  color: #ffffff;
+  font-family: Cousine;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 40.08px;
+  text-transform: uppercase;
+}
+
+.exclusive__text-discount {
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.exclusive__line-right {
+  position: absolute;
+  right: 120px;
+  width: 75px;
 }
 
 .exclusive__circle-right {
@@ -444,7 +491,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .exclusive__link-image {
   height: 8px;
   position: absolute;
-  top: 265px;
+  top: 266px;
   right: 223px;
 }
 
@@ -454,6 +501,81 @@ input[type="search"]::-webkit-search-results-decoration {
   background-color: #cccccc;
   position: absolute;
   top: -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advertising__jewerly-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jewerly__text {
+  color: #ffffff;
+  font-family: "Merriweather Sans";
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.third-item__text {
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.buy__now {
+  color: #ffffff;
+  font-family: "Merriweather Sans";
+  font-size: 11px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5px;
+}
+
+.buy__now:hover {
+  text-decoration: underline;
+}
+
+.jewerly__switch {
+  position: absolute;
+  height: 8px;
+  bottom: 12px;
+  right: 100px;
 }
 
 .advertising__accessories {
@@ -462,6 +584,72 @@ input[type="search"]::-webkit-search-results-decoration {
   background-color: #cccccc;
   position: absolute;
   top: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accessories__line-left {
+  position: absolute;
+  width: 35px;
+  left: 10px;
+  bottom: 100px;
+}
+
+.accessories__line-right {
+  position: absolute;
+  width: 35px;
+  right: 10px;
+  bottom: 100px;
+}
+
+.accessories__text {
+  color: #ffffff;
+  font-family: "Merriweather Sans";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.accessories__style {
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.accessories__getlook {
+  color: #ffffff;
+  font-family: "Merriweather Sans";
+  font-size: 11px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5px;
+}
+
+.accessories__getlook:hover {
+  text-decoration: underline;
+}
+
+.getlook-switch {
+  height: 8px;
 }
 
 .advertising__lookbook {
